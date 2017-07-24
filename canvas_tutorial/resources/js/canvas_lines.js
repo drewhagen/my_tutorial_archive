@@ -42,3 +42,4 @@ c.lineTo(400, 300);
 c.strokeStyle = "#D24D57";
 c.stroke();
 // Finally, this stroke method completes the line.r
+
