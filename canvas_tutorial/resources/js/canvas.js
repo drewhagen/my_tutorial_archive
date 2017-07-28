@@ -42,7 +42,8 @@ c.stroke();
 //==============
 // BEGIN A NEW PATH
 c.beginPath();
-/*c.arc(x: Int, y: Int, radius: Int, startAngle: Float(/RADIAN), endAngle: Float(/RADIAN), drawCounterClockWise: Bool)
+/*c.arc(x: Int, y: Int, radius: Int, startAngle: Float(/RADIAN),
+endAngle: Float(/RADIAN), drawCounterClockWise: Bool)
 */
 c.arc(300, 300, 30, 0, Math.PI * 2, false);
 c.strokeStyle = 'blue';
@@ -51,7 +52,8 @@ c.stroke();
 // Creating 100 circles randomly throughout the page
 for (i=0; i<100; i++) {
     x = Math.random() * window.innerWidth;
-    //note that Math.random() generates values between 0 and 1, similar to MATLAB. so we multiply by the window width
+    //note that Math.random() generates values between 0 and 1,
+    //  similar to MATLAB. so we multiply by the window width
     y = Math.random() * window.innerHeight;
     c.beginPath();
     c.arc(x, y, 30, 0, Math.PI * 2, false);
